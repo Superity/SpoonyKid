@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">  
+    <body>
+        <header>
+            <nav>
+                <img src="images/logo.jpg">
+                
+        <ul>
+            
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+            </nav>
+        </header>
+        <main id="contact">
+            <section class="contact-row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i>anshulhegde.g@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>1905080192</p>
+                    <p><i class="fa-brands fa-discord"></i>S̤ŭpër̥̄ïṭẏ#0424</p>
+                    <p><i class="fa-brands fa-reddit"></i>DevilWarrior_30</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right"></div>
+                <div>
+                    <h3 class="alert">Ask any question here</h3>
+                    <form id="contactform">
+                        <input id="nameField" type="text" name="name" placeholder="Your Name" required><br><br>
+                        <input id="emailField" type="email" name="email" placeholder="Your Email" required><br><br>
+                        <Textarea id="msgField" name="message" rows="6" placeholder="Your Message"></Textarea><br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="copyright">
+            <p><centre>Copyright &copy; Anshul Hegde <i class="fa-solid fa-bolt"></i> by Orchids International School
+            </centre></p>
+           </footer>
+            <script src="/functionality.js"></script>
+                   <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+                   <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+                   <script>
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+var firebaseConfig =
+ {
+  apiKey: "AIzaSyBntDulGGfeBcYLIlqVZ4fMtdOAYKAZYWo",
+  authDomain: "my-project-813ae.firebaseapp.com",
+  databaseURL:"https://my-project-813ae-default-rtdb.firebaseio.com/",
+  projectId: "my-project-813ae",
+  storageBucket: "my-project-813ae.appspot.com",
+  messagingSenderId: "23852378195",
+  appId: "1:23852378195:web:db2dd00760b07d34427ea6",
+  measurementId: "G-3Q5JRQQGFW"
+        };
+        firebase.initializeApp(firebaseConfig);
+           </script>
+                   
+        </body>
+    </html>
